@@ -40,5 +40,4 @@ public class CreateUserGenerator {
         createUser.setName(faker.name().firstName());
         return createUser;
     }
-
 }

@@ -4,9 +4,10 @@ import generator.CreateUserGenerator;
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;
-import org.junit.Assert;
 
 import static org.hamcrest.core.IsEqual.equalTo;
+import static pojo.CreateUser.editEmailOfUserFiled;
+import static pojo.CreateUser.editNameOfUserFiled;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -32,34 +33,32 @@ public class UpdateUserDataTest extends UserBaseTest {
     @DisplayName("Изменение поля Email у авторизованного пользователя")
     @Description("Ожидание ответа 200")
     public void changingEmailFieldAuthorizedUser() {
-        responseAfterChangeField = CreateUser.editEmailOfUserFiled();
+        responseAfterChangeField = editEmailOfUserFiled();
         ValidatableResponse updateDataOfUser = UserClient.changeWithAuthorization(responseAfterChangeField, accessToken);
 
-        String newEmail = updateDataOfUser.extract().path("user.email");
-        Assert.assertNotEquals(CreateUser.editEmailOfUserFiled().getEmail(), newEmail);
+        updateDataOfUser.assertThat()
+                .body("user.email", equalTo(responseAfterChangeField.getEmail()));
     }
 
     @Test
     @DisplayName("Изменение поля Name у авторизованного пользователя")
     @Description("Ожидание ответа 200")
     public void changingNameFieldAuthorizedUser() {
-        responseAfterChangeField = CreateUser.editNameOfUserFiled();
+        responseAfterChangeField = editNameOfUserFiled();
         ValidatableResponse updateDataOfUser = UserClient.changeWithAuthorization(responseAfterChangeField, accessToken);
 
-        String newName = updateDataOfUser.extract().path("user.name");
-        Assert.assertNotEquals(CreateUser.editNameOfUserFiled().getName(), newName);
+        updateDataOfUser.assertThat()
+                .body("user.name", equalTo(responseAfterChangeField.getName()));
     }
 
     @Test
     @DisplayName("Изменение поля Name без авторизацией")
     @Description("Ожидание ответа 401")
     public void changingNameFieldWithoutAuthorization() {
-        responseAfterChangeField = CreateUser.editNameOfUserFiled();
+        responseAfterChangeField = editNameOfUserFiled();
         ValidatableResponse updateDataOfUser = UserClient.changeWithoutAuthorization(responseAfterChangeField);
 
         updateDataOfUser.assertThat()
-                .statusCode(401)
-                .and()
                 .body("message", equalTo(ERROR_401));
     }
 
@@ -67,12 +66,10 @@ public class UpdateUserDataTest extends UserBaseTest {
     @DisplayName("Изменение поля Email без авторизацией")
     @Description("Ожидание ответа 401")
     public void changingEmailFieldWithoutAuthorization() {
-        responseAfterChangeField = CreateUser.editEmailOfUserFiled();
+        responseAfterChangeField = editEmailOfUserFiled();
         ValidatableResponse updateDataOfUser = UserClient.changeWithoutAuthorization(responseAfterChangeField);
 
         updateDataOfUser.assertThat()
-                .statusCode(401)
-                .and()
                 .body("message", equalTo(ERROR_401));
     }
 
@@ -83,10 +80,8 @@ public class UpdateUserDataTest extends UserBaseTest {
         responseAfterChangeField = CreateUser.editNameAndEmailOfUserFiled();
         ValidatableResponse updateDataOfUser = UserClient.changeWithoutAuthorization(responseAfterChangeField);
 
-        String newEmail = updateDataOfUser.extract().path("user.email");
-        String newName = updateDataOfUser.extract().path("user.name");
-        Assert.assertNotEquals(CreateUser.editEmailOfUserFiled().getEmail(), newEmail);
-        Assert.assertNotEquals(CreateUser.editNameOfUserFiled().getName(), newName);
+        updateDataOfUser.assertThat()
+                .body("message", equalTo(ERROR_401));
     }
 
     @Test
@@ -96,7 +91,7 @@ public class UpdateUserDataTest extends UserBaseTest {
         responseAfterChangeField = CreateUser.editNameAndEmailOfUserFiled();
         ValidatableResponse updateDataOfUser = UserClient.changeWithoutAuthorization(responseAfterChangeField);
 
-        String newPassword = updateDataOfUser.extract().path("user.password");
-        Assert.assertNotEquals(CreateUser.editPasswordOfUserFiled(), newPassword);
+        updateDataOfUser.assertThat()
+                .body("message", equalTo(ERROR_401));
     }
 }

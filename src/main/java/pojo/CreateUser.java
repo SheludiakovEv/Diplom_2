@@ -38,7 +38,7 @@ public class CreateUser {
                 Faker.instance().name().firstName());
     }
 
-    @Step("Пользователь для полей смены email и name")
+    @Step("Пользователь для полей смены password")
     public static CreateUser editPasswordOfUserFiled() {
         return new CreateUser(null, Faker.instance().internet().password(),
                 null);

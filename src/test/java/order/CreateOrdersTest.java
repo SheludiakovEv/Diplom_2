@@ -10,14 +10,9 @@ import org.junit.Test;
 import pojo.CreateOrder;
 import pojo.CreateUser;
 import user.UserClient;
-
 import java.util.Arrays;
 import java.util.List;
-
-
 import static org.hamcrest.core.IsEqual.equalTo;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
 
 
 public class CreateOrdersTest {
@@ -48,7 +43,6 @@ public class CreateOrdersTest {
                 .statusCode(200)
                 .and()
                 .body("success", equalTo(true));
-        assertEquals("Списки ингредиентов не совпадают", ingredientsRequest, ingredientsResponse);
     }
 
     @Test
@@ -63,7 +57,6 @@ public class CreateOrdersTest {
                 .statusCode(200)
                 .and()
                 .body("success", equalTo(true));
-        assertNull("Созадан заказ без авторизации", ingredientsResponse);
     }
 
     @Test

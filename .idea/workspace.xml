@@ -4,8 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3dd6a26-612f-483c-bf58-afba1c409d2d" name="Changes" comment="Second commit">
+    <list default="true" id="d3dd6a26-612f-483c-bf58-afba1c409d2d" name="Changes" comment="Fgit add -f .\target\allure-results\irst commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/generator/CreateUserGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/generator/CreateUserGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/order/OrderClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/order/OrderClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pojo/CreateOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/CreateOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pojo/CreateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/CreateUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/UserClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/order/CreateOrdersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/order/CreateOrdersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/order/GetOrdersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/order/GetOrdersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/user/UpdateUserDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/user/UpdateUserDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/user/UserCreatingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/user/UserCreatingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/user/UserLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/user/UserLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/0e62ad94-1744-4e12-8612-499483af4537-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1b9a329f-3bd1-4329-974f-87a879dc33fd-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/23ed5542-1c42-4c0b-9283-5048dadda50d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/2930b2d3-28b0-4da8-8f51-bcf287a8c1d1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/2cc16838-5d0e-447e-b9c5-cdd5dd69580d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/54d71049-92de-407c-948d-7834e5986b87-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/5791cdcc-5f31-4521-bd36-104068cfda1f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/57c9a3cc-405a-4bd4-8e03-f5026bd2b306-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7654b5bf-138b-400b-b538-1e8635773f18-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7a177c2c-f674-447a-b568-a69a9150bdf1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9d897726-18ca-4e63-9f40-c81596195228-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a384b82d-a79d-4f24-a500-5cf1c5f28eb1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a55be1b3-1bb7-4b99-9a14-413bbb37b300-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/bac0883f-a6c2-45e2-becb-51a11fcae544-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e0d09f82-ce12-4385-8b4b-02beb94f555d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ea029157-b419-451e-8eb1-6359541b9a6b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f2b259c0-2f14-4e44-8aa0-1f521479dab4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f5d492c1-edac-4e4c-b021-d912bb9f9028-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f85ae7a0-1754-4815-b705-77cc75bcfb3b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/fa988a3f-8692-440f-afda-bcfdcd64626b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/fbf0babd-a3a2-448a-9703-09a7b649f934-result.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +64,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/cygwin64/home/Joni_sh1/Diplom_2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/cygwin64/home/Eugeniy/Дилом_Колотов_Владимир_12/QA-java-diplom-2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="pojo" />
@@ -51,22 +84,7 @@
       <command value="mvn verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UpdateUserDataTest.updateUserPasswordWithoutAuthorization">
-    <configuration name="UpdateUserDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="user.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="user" />
-      <option name="MAIN_CLASS_NAME" value="user.UpdateUserDataTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UpdateUserDataTest.changingNameFieldAuthorizedUser">
     <configuration name="UpdateUserDataTest.changingEmailFieldAuthorizedUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_2" />
       <extension name="coverage">
@@ -78,6 +96,22 @@
       <option name="PACKAGE_NAME" value="user" />
       <option name="MAIN_CLASS_NAME" value="user.UpdateUserDataTest" />
       <option name="METHOD_NAME" value="changingEmailFieldAuthorizedUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateUserDataTest.changingEmailFieldWithoutAuthorization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="user" />
+      <option name="MAIN_CLASS_NAME" value="user.UpdateUserDataTest" />
+      <option name="METHOD_NAME" value="changingEmailFieldWithoutAuthorization" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,7 +133,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateUserDataTest.updateUserNameAndEmailWithoutAuthorization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UpdateUserDataTest.changingNameFieldWithoutAuthorization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_2" />
       <extension name="coverage">
         <pattern>
@@ -109,13 +143,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="user" />
       <option name="MAIN_CLASS_NAME" value="user.UpdateUserDataTest" />
-      <option name="METHOD_NAME" value="updateUserNameAndEmailWithoutAuthorization" />
+      <option name="METHOD_NAME" value="changingNameFieldWithoutAuthorization" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateUserDataTest.updateUserPasswordWithoutAuthorization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserCreatingTest.createTwoIdenticalUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_2" />
       <extension name="coverage">
         <pattern>
@@ -124,8 +158,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="user" />
-      <option name="MAIN_CLASS_NAME" value="user.UpdateUserDataTest" />
-      <option name="METHOD_NAME" value="updateUserPasswordWithoutAuthorization" />
+      <option name="MAIN_CLASS_NAME" value="user.UserCreatingTest" />
+      <option name="METHOD_NAME" value="createTwoIdenticalUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UpdateUserDataTest.updateUserPasswordWithoutAuthorization" />
-        <item itemvalue="JUnit.UpdateUserDataTest" />
-        <item itemvalue="JUnit.UpdateUserDataTest.updateUserNameAndEmailWithoutAuthorization" />
         <item itemvalue="JUnit.UpdateUserDataTest.changingNameFieldAuthorizedUser" />
         <item itemvalue="JUnit.UpdateUserDataTest.changingEmailFieldAuthorizedUser" />
+        <item itemvalue="JUnit.UpdateUserDataTest.changingEmailFieldWithoutAuthorization" />
+        <item itemvalue="JUnit.UpdateUserDataTest.changingNameFieldWithoutAuthorization" />
+        <item itemvalue="JUnit.UserCreatingTest.createTwoIdenticalUser" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670763415005</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="First commit">
+      <created>1670764918605</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670764918605</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,9 +257,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit master" />
     <MESSAGE value="Second commit allure result" />
-    <MESSAGE value="First commit" />
     <MESSAGE value="Second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second commit" />
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -7,7 +7,6 @@ import pojo.CreateUser;
 import pojo.LoginUser;
 import steps.Client;
 
-
 public class UserClient extends Client {
 
     private static final String AUTH = "auth/";
@@ -66,7 +65,9 @@ public class UserClient extends Client {
                 .when()
                 .patch(USER)
                 .then()
-                .log().ifError();
+                .log().ifError()
+                .statusCode(200)
+                .and();
     }
 
     @Step("Изменить данные пользователя без авторизации")
@@ -77,6 +78,8 @@ public class UserClient extends Client {
                 .when()
                 .patch(USER)
                 .then()
-                .log().ifError();
+                .log().ifError()
+                .statusCode(401)
+                .and();
     }
 }

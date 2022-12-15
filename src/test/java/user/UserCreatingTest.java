@@ -40,7 +40,8 @@ public class UserCreatingTest extends UserBaseTest {
         ValidatableResponse errorResponse = UserClient.createNewUser(request);
         errorResponse.statusCode(403)
                 .and()
-                .assertThat().body("message", equalTo("User already exists"));
+                .assertThat()
+                .body("message", equalTo("User already exists"));
     }
 
     @Test
@@ -52,7 +53,8 @@ public class UserCreatingTest extends UserBaseTest {
 
         response.statusCode(403)
                 .and()
-                .assertThat().body("message", equalTo(REGISTER_ERROR_403));
+                .assertThat()
+                .body("message", equalTo(REGISTER_ERROR_403));
     }
 
     @Test
@@ -64,7 +66,8 @@ public class UserCreatingTest extends UserBaseTest {
 
         response.statusCode(403)
                 .and()
-                .assertThat().body("message", equalTo(REGISTER_ERROR_403));
+                .assertThat()
+                .body("message", equalTo(REGISTER_ERROR_403));
     }
 
     @Test
@@ -76,7 +79,7 @@ public class UserCreatingTest extends UserBaseTest {
 
         response.statusCode(403)
                 .and()
-                .assertThat().body("message", equalTo(REGISTER_ERROR_403));
+                .assertThat()
+                .body("message", equalTo(REGISTER_ERROR_403));
     }
-
 }

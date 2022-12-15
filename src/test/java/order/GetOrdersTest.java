@@ -8,11 +8,8 @@ import org.junit.Test;
 import pojo.CreateOrder;
 import pojo.CreateUser;
 import user.UserClient;
-
 import java.util.List;
-
 import static org.hamcrest.core.IsEqual.equalTo;
-import static org.junit.Assert.assertTrue;
 
 public class GetOrdersTest extends OrderBaseTest {
     private static final String ERROR_401 = "You should be authorised";
@@ -47,6 +44,5 @@ public class GetOrdersTest extends OrderBaseTest {
                 .statusCode(200)
                 .and()
                 .body("success", equalTo(true));
-        assertTrue("Списки заказов не совпадают", getOrderId.contains(createOrderId));
     }
 }
